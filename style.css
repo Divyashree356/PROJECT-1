@@ -1,0 +1,79 @@
+/*default styling*/
+
+html{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* decendent selector  also combinator  */
+header h1{
+    font-weight: 500;
+    font-size: 50px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 3rem 0rem;
+}
+nav{
+    position: relative;
+    top: 3rem;
+    width: 70rem;
+    left: 4rem;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    list-style: none;
+    font-size: 1.5rem;
+}
+/* class selector */
+.front_img{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    width:  81vw;  /*view port width accoding to the size of desktop screen*/
+    
+}
+article{
+    display: flex;
+
+}
+.container>h1{
+    text-align: center;
+
+} 
+ .container>p{
+  text-align: left;
+}
+.container{
+    
+    margin: 5rem;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+.img_set{
+    height: 11vw;
+}
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 4rem;
+    align-items: center;
+    font-size: 1.5rem;
+}
+/*justify content - horizontally 
+align items - vertically
+*/
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* psuedoclasses  */
+
+a:hover{
+    color: red;
+}
